@@ -25,7 +25,7 @@ except:
 else:
     # doesn't work in py2exe
     try:
-        wxversion.select('2.6')
+        wxversion.select('2.8')
     except:
         pass
     

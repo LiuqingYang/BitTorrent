@@ -27,7 +27,7 @@ rm -fr build dist
 
 build_pkg() {
     PKG=$1
-    for PYV in "2.4"; do
+    for PYV in "2.7"; do
         PYTHON="python$PYV"
 	if [ `which $PYTHON` ]; then
             PYTHONVERSION=`$PYTHON -c 'import sys; print sys.version[:3]'`
